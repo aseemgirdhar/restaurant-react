@@ -1,0 +1,6 @@
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.logout{
+    margin-left: 15px;
+}

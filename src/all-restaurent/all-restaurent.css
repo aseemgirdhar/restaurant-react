@@ -1,0 +1,50 @@
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    font-family: 'Poppins', sans-serif;
+}
+.card-wrapper a {
+    display: inline-flex;
+    flex: 1;
+    text-decoration: none;
+}
+.card-wrapper .card img {
+    min-width: 200px;
+}
+.card-wrapper .card {
+    flex: 1;
+    background: #fff;
+    width: 200px;
+    min-width: 200px;
+    margin: 15px;
+    position: relative;
+}
+.card-wrapper .card .btn {
+    position: absolute;
+    bottom: 10px;
+}
+
+.card-wrapper .card .card-body {
+    padding-bottom: 50px;
+}
+.card-body .card-title {
+    color: green;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.card-body .card-text {
+    color: #333;
+}
+.single-menu .card .multi-img{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.single-menu .card img{
+    max-width: 50px;
+    min-width: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
